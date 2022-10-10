@@ -5,6 +5,18 @@
       "outputs": ["dist/**", "public/dist/**"],
       "dependsOn": ["^build", "lint"]
     },
+    "test:watch": {
+      "outputs": [],
+      "dependsOn": []
+    },
+    "test": {
+      "outputs": [],
+      "dependsOn": []
+    },
+    "coverage": {
+      "outputs": ["coverage/**"],
+      "dependsOn": []
+    },
     "lint": {
       "dependsOn": [],
       "outputs": []
