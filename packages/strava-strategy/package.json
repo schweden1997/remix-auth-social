@@ -1,0 +1,20 @@
+{
+  "name": "remix-auth-strava-strategy",
+  "version": "0.0.0",
+  "description": "Strava strategy to be used with remix-auth and remix-auth-oauth2",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "lint": "eslint . --ext .ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "Marco De Gaetano",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.8.4",
+    "eslint-config-custom": "workspace:*",
+    "typescript": "^4.8.4"
+  }
+}

@@ -26,6 +26,10 @@
     },
     "clean": {
       "cache": false
+    },
+    "typecheck": {
+      "outputs": [],
+      "dependsOn": []
     }
   }
 }

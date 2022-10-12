@@ -11,10 +11,11 @@
   ],
   "scripts": {
     "cz": "git add . & czg",
-    "build": "turbo run build",
     "dev": "turbo run dev --no-cache --parallel --continue",
-    "lint": "turbo run lint",
     "test": "turbo run test",
+    "build": "turbo run build",
+    "typecheck": "turbo run typecheck",
+    "lint": "turbo run lint",
     "test:watch": "turbo run test:watch",
     "coverage": "turbo run coverage",
     "clean": "turbo run clean && rm -rf node_modules",
