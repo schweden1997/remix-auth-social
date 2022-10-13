@@ -1,6 +1,6 @@
 {
   "name": "remix-auth-strava-strategy",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Strava strategy to be used with remix-auth and remix-auth-oauth2",
   "keywords": [],
   "author": "Marco De Gaetano",
