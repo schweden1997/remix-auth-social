@@ -1,32 +1,27 @@
 {
-  "name": "remix-node",
+  "name": "remix-vercel",
   "private": true,
   "sideEffects": false,
   "scripts": {
     "build": "remix build",
-    "dev": "remix dev",
-    "start": "remix-serve build"
+    "dev": "remix dev"
   },
   "dependencies": {
     "@remix-run/node": "^1.7.2",
     "@remix-run/react": "^1.7.2",
-    "@remix-run/serve": "^1.7.2",
-    "@remix-run/server-runtime": "^1.7.2",
-    "isbot": "^3.5.4",
+    "@remix-run/vercel": "^1.7.2",
+    "@vercel/node": "^2.4.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "remix-auth": "^3.3.0",
-    "remix-auth-oauth2": "^1.3.0",
-    "remix-auth-strava-strategy": "workspace:1.0.0"
+    "remix-auth-strava-strategy": "workspace:^1.0.0"
   },
   "devDependencies": {
     "@remix-run/dev": "^1.7.2",
     "@remix-run/eslint-config": "^1.7.2",
-    "@types/node": "^18.8.4",
+    "@remix-run/serve": "^1.7.2",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
-    "eslint": "^8.25.0",
-    "eslint-config-custom": "workspace:*",
+    "eslint": "^8.23.1",
     "typescript": "^4.7.4"
   },
   "engines": {
