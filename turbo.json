@@ -3,12 +3,9 @@
   "pipeline": {
     "build": {
       "outputs": ["dist/**", "public/dist/**"],
-      "dependsOn": ["^build", "lint"]
+      "dependsOn": ["^build", "lint", "test"]
     },
-    "test:watch": {
-      "outputs": [],
-      "dependsOn": []
-    },
+
     "test": {
       "outputs": [],
       "dependsOn": []
