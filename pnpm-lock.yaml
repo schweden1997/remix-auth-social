@@ -72,6 +72,7 @@ importers:
       '@remix-run/node': ^1.7.2
       '@remix-run/react': ^1.7.2
       '@remix-run/serve': ^1.7.2
+      '@remix-run/server-runtime': ^1.7.2
       '@remix-run/vercel': ^1.7.2
       '@types/react': ^18.0.15
       '@types/react-dom': ^18.0.6
@@ -80,16 +81,21 @@ importers:
       isbot: ^3.5.4
       react: ^18.2.0
       react-dom: ^18.2.0
+      remix-auth: ^3.3.0
+      remix-auth-oauth2: ^1.3.0
       remix-auth-strava-strategy: workspace:^1.0.0
       typescript: ^4.7.4
     dependencies:
       '@remix-run/node': 1.7.2_biqbaboplfbrettd7655fr4n2y
       '@remix-run/react': 1.7.2_biqbaboplfbrettd7655fr4n2y
+      '@remix-run/server-runtime': 1.7.2_biqbaboplfbrettd7655fr4n2y
       '@remix-run/vercel': 1.7.2_d5jbhxqfp3zldl6stjj44oiyfi
       '@vercel/node': 2.5.24
       isbot: 3.6.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+      remix-auth: 3.3.0_muvmnmki5626wgm6kkfcaei6zi
+      remix-auth-oauth2: 1.3.0_muvmnmki5626wgm6kkfcaei6zi
       remix-auth-strava-strategy: link:../../packages/strava-strategy
     devDependencies:
       '@remix-run/dev': 1.7.2_63cxfdg5f5bb4xpkk3vcjfcl3q
