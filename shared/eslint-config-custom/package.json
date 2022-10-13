@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-custom",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "@vitest/coverage-c8": "^0.24.1",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-unicorn": "^44.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}

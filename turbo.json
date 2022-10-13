@@ -3,7 +3,16 @@
   "pipeline": {
     "build": {
       "outputs": ["dist/**", "public/dist/**"],
-      "dependsOn": ["^build"]
+      "dependsOn": ["^build", "lint", "test"]
+    },
+
+    "test": {
+      "outputs": [],
+      "dependsOn": []
+    },
+    "coverage": {
+      "outputs": ["coverage/**"],
+      "dependsOn": []
     },
     "lint": {
       "dependsOn": [],
@@ -14,6 +23,10 @@
     },
     "clean": {
       "cache": false
+    },
+    "typecheck": {
+      "outputs": [],
+      "dependsOn": []
     }
   }
 }
