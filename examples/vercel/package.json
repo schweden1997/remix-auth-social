@@ -1,4 +1,5 @@
 {
+  "name": "remix-vercel",
   "private": true,
   "sideEffects": false,
   "scripts": {
