@@ -5,10 +5,11 @@ import {
   OAuth2StrategyVerifyParams,
 } from 'remix-auth-oauth2'
 import { IDetailedAthlete, ISummaryAthlete } from './types'
+import { validateInputs } from './validator'
 
 // Options needed from developer
 export interface StravaStrategyOptions {
-  clientID: string // in reality this is a integer see https://github.com/sergiodxa/remix-auth-oauth2/pull/33
+  clientID: string
   clientSecret: string
   redirectURI: string
   approvalPrompt?: 'force' | 'auto'
@@ -43,7 +44,6 @@ export class StravaStrategy<User> extends OAuth2Strategy<
   public name = 'strava'
   private readonly scope: string
   private readonly prompt: 'force' | 'auto'
-  // private readonly grantType: "authorization_code";
   private readonly userInfoURL = 'https://www.strava.com/api/v3/athlete'
 
   constructor(
@@ -59,18 +59,27 @@ export class StravaStrategy<User> extends OAuth2Strategy<
       OAuth2StrategyVerifyParams<StravaProfile, StravaExtraParams>
     >
   ) {
+    const validatedInput = validateInputs({
+      clientID,
+      clientSecret,
+      redirectURI,
+      approvalPrompt,
+      scope,
+    })
+
     super(
       {
-        clientID,
-        clientSecret,
-        callbackURL: redirectURI,
+        clientID: validatedInput.clientID,
+        clientSecret: validatedInput.clientSecret,
+        callbackURL: validatedInput.redirectURI,
         authorizationURL: 'https://www.strava.com/oauth/authorize',
         tokenURL: 'https://www.strava.com/oauth/token',
       },
       verify
     )
-    this.scope = scope?.join() ?? 'read'
-    this.prompt = approvalPrompt ?? 'auto'
+
+    this.scope = validatedInput.scope
+    this.prompt = validatedInput.approvalPrompt
   }
 
   protected authorizationParams(): URLSearchParams {

@@ -10,5 +10,8 @@
     "eslint": "^8.25.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-unicorn": "^44.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
   }
 }
