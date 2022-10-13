@@ -33,7 +33,7 @@ jobs:
           cache: 'pnpm'
 
       - name: Disable Husky
-        run: npm pkg set scripts.prepare=""
+        run: npm pkg set scripts.prepare=" "
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
