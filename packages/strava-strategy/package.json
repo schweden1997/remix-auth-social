@@ -2,14 +2,31 @@
   "name": "remix-auth-strava-strategy",
   "version": "1.0.0",
   "description": "Strava strategy to be used with remix-auth and remix-auth-oauth2",
-  "keywords": [],
-  "author": "Marco De Gaetano",
-  "license": "MIT",
+  "keywords": [
+    "remix",
+    "remix-auth",
+    "remix-auth-oauth2",
+    "strava"
+  ],
+  "author": {
+    "email": "marco@degaetano.dev",
+    "name": "Marco De Gaetano",
+    "url": "https://github.com/schweden1997/remix-auth-social"
+  },
+  "homepage": "https://github.com/schweden1997/remix-auth-social",
+  "repository": {
+    "url": "https://github.com/schweden1997/remix-auth-social.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/schweden1997/remix-auth-social/issues/new"
+  },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
     "dist",
-    "package.json"
+    "package.json",
+    "README.md"
   ],
   "scripts": {
     "build": "tsc",
