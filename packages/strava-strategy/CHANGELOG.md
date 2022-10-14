@@ -1,5 +1,11 @@
 # remix-auth-strava-strategy
 
+## 1.0.1
+
+### Patch Changes
+
+- [#11](https://github.com/schweden1997/remix-auth-social/pull/11) [`71d9209`](https://github.com/schweden1997/remix-auth-social/commit/71d92099b3d04a6b99201852a635d5ce7b08e915) Thanks [@schweden1997](https://github.com/schweden1997)! - add provider to StravaProfile type, make some properties required for better typesafety
+
 ## 1.0.0
 
 ### Major Changes
