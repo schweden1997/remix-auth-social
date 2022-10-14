@@ -2,7 +2,7 @@ export interface IDetailedAthlete {
   /**
    * The unique identifier of the athlete
    */
-  id?: number // int64
+  id: string // int64
   /**
    * The athlet's username defined under settings > my profile > personal url
    */
@@ -58,11 +58,11 @@ export interface IDetailedAthlete {
   /**
    * The time at which the athlete was created.
    */
-  created_at?: string // date-time
+  created_at: string // date-time
   /**
    * The time at which the athlete was last updated.
    */
-  updated_at?: string // date-time
+  updated_at: string // date-time
   /**
    * The athlete's follower count.
    */
@@ -106,13 +106,14 @@ export interface IDetailedAthlete {
   mutual_friend_count?: number
   athlete_type?: number
   date_preference?: string
+  provider: 'strava'
 }
 
 export interface ISummaryAthlete {
   /**
    * The unique identifier of the athlete
    */
-  id?: number // int64
+  id: string // int64
   /**
    * The athlet's username defined under settings > my profile > personal url
    */
@@ -120,7 +121,7 @@ export interface ISummaryAthlete {
   /**
    * Resource state, indicates level of detail. Possible values: 1 -> "meta", 2 -> "summary", 3 -> "detail"
    */
-  resource_state?: number
+  resource_state: number
   /**
    * The athlete's first name.
    */
@@ -183,13 +184,14 @@ export interface ISummaryAthlete {
   weight?: number // float
   friend?: number
   follower?: number
+  provider: 'strava'
 }
 
 interface ISummaryClub {
   /**
    * The club's unique identifier.
    */
-  id?: number // int64
+  id: number // int64
   /**
    * Resource state, indicates level of detail. Possible values: 1 -> "meta", 2 -> "summary", 3 -> "detail"
    */
@@ -256,7 +258,7 @@ interface ISummaryGear {
   /**
    * The gear's unique identifier.
    */
-  id?: string
+  id: string
   /**
    * Resource state, indicates level of detail. Possible values: 2 -> "summary", 3 -> "detail"
    */
