@@ -1,9 +1,5 @@
 import { StrategyVerifyCallback } from 'remix-auth'
-import {
-  OAuth2Profile,
-  OAuth2Strategy,
-  OAuth2StrategyVerifyParams,
-} from 'remix-auth-oauth2'
+import { OAuth2Strategy, OAuth2StrategyVerifyParams } from 'remix-auth-oauth2'
 import { IDetailedAthlete, ISummaryAthlete } from './types'
 import { validateInputs } from './validator'
 
@@ -32,9 +28,7 @@ export type StravaExtraParams = {
   athlete: ISummaryAthlete
 } & Record<string, string | number>
 
-export type StravaProfile =
-  | (IDetailedAthlete & OAuth2Profile)
-  | (ISummaryAthlete & OAuth2Profile)
+export type StravaProfile = IDetailedAthlete | ISummaryAthlete
 
 export class StravaStrategy<User> extends OAuth2Strategy<
   User,
