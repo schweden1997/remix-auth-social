@@ -42,7 +42,7 @@ importers:
       react-dom: ^18.2.0
       remix-auth: ^3.3.0
       remix-auth-oauth2: ^1.3.0
-      remix-auth-strava-strategy: workspace:1.0.0
+      remix-auth-strava-strategy: workspace:*
       typescript: ^4.7.4
     dependencies:
       '@remix-run/node': 1.7.2_biqbaboplfbrettd7655fr4n2y
