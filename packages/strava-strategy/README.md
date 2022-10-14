@@ -4,10 +4,10 @@ The Strava strategy is used to authenticate users against a Strava account. It e
 
 ## Supported runtimes
 
-| Runtime    | Has Support    |
-| ---------- | -------------- |
-| Node.js    | ✅             |
-| Cloudflare | not yet tested |
+| Runtime    | Has Support   |
+| ---------- | --------------|
+| Node.js    | ✅            |
+| Cloudflare | ✅            |
 
 ## Usage
 
