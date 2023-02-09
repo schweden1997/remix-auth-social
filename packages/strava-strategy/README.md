@@ -13,7 +13,7 @@ The Strava strategy is used to authenticate users against a Strava account. It e
 
 This strategy is used with the [remix-auth](https://github.com/sergiodxa/remix-auth) package. Make sure to follow their instructions on how to use a strategy.
 
-A minimal working example can be found in the [examples](https://github.com/schweden1997/remix-auth-social/tree/next/examples/node-server) folder.
+A minimal working example can be found in the [examples](https://github.com/schweden1997/remix-auth-social/tree/main/examples/node-server) folder.
 
 ### Create an OAuth application
 
