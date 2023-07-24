@@ -28,7 +28,7 @@ importers:
     specifiers:
       '@remix-run/dev': ^1.7.2
       '@remix-run/eslint-config': ^1.7.2
-      '@remix-run/node': ^1.18.1
+      '@remix-run/node': ^1.19.1
       '@remix-run/react': ^1.7.2
       '@remix-run/serve': ^1.7.2
       '@remix-run/server-runtime': ^1.7.2
@@ -45,7 +45,7 @@ importers:
       remix-auth-strava-strategy: workspace:*
       typescript: ^4.7.4
     dependencies:
-      '@remix-run/node': 1.18.1
+      '@remix-run/node': 1.19.1
       '@remix-run/react': 1.7.2_biqbaboplfbrettd7655fr4n2y
       '@remix-run/serve': 1.7.2_biqbaboplfbrettd7655fr4n2y
       '@remix-run/server-runtime': 1.7.2_biqbaboplfbrettd7655fr4n2y
@@ -75,7 +75,7 @@ importers:
       '@jest/globals': ^29.6.1
       '@jest/types': ^29.1.2
       '@remix-run/cloudflare': ^1.7.2
-      '@remix-run/node': ^1.18.1
+      '@remix-run/node': ^1.19.1
       '@remix-run/react': ^1.7.2
       '@remix-run/server-runtime': ^1.7.2
       '@types/jest': ^29.1.2
@@ -106,7 +106,7 @@ importers:
       '@jest/globals': 29.6.1
       '@jest/types': 29.2.0
       '@remix-run/cloudflare': 1.7.2_muww2kiwo2llzk2zywyjnhl2qq
-      '@remix-run/node': 1.18.1
+      '@remix-run/node': 1.19.1
       '@remix-run/react': 1.7.2_biqbaboplfbrettd7655fr4n2y
       '@remix-run/server-runtime': 1.7.2_biqbaboplfbrettd7655fr4n2y
       '@types/jest': 29.1.2
@@ -2478,11 +2478,11 @@ packages:
       - react
       - react-dom
 
-  /@remix-run/node/1.18.1:
-    resolution: {integrity: sha512-Civ8hQGdQKxmYtDvzV+8sYOPiLfH2FtT35iSwEqDN49uraInljoWngSwzrRmKkilhI4eABSN9fv0trUDyOTBrQ==}
+  /@remix-run/node/1.19.1:
+    resolution: {integrity: sha512-7RbuaG3PMkit04xhu+RdOLHbLj7rhPVJwLeMXAYreQ0D9hvssWNt2lPGEowLd//2IGthU8OvNpb1rB+vyFuF1Q==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@remix-run/server-runtime': 1.18.1
+      '@remix-run/server-runtime': 1.19.1
       '@remix-run/web-fetch': 4.3.5
       '@remix-run/web-file': 3.0.2
       '@remix-run/web-stream': 1.0.3
@@ -2521,8 +2521,8 @@ packages:
       react-dom: 18.2.0_react@18.2.0
       react-router-dom: 6.3.0_biqbaboplfbrettd7655fr4n2y
 
-  /@remix-run/router/1.7.1:
-    resolution: {integrity: sha512-bgVQM4ZJ2u2CM8k1ey70o1ePFXsEzYVZoWghh6WjM8p59jQ7HxzbHW4SbnWFG7V9ig9chLawQxDTZ3xzOF8MkQ==}
+  /@remix-run/router/1.7.2:
+    resolution: {integrity: sha512-7Lcn7IqGMV+vizMPoEl5F0XDshcdDYtMI6uJLQdQz5CfZAwy3vvGKYSUk789qndt5dEC4HfSjviSYlSoHGL2+A==}
     engines: {node: '>=14'}
 
   /@remix-run/serve/1.7.2_biqbaboplfbrettd7655fr4n2y:
@@ -2539,11 +2539,11 @@ packages:
       - react-dom
       - supports-color
 
-  /@remix-run/server-runtime/1.18.1:
-    resolution: {integrity: sha512-E0sQlgUQG2ytFmUH7zRH7n2MufnP6WWWq1KpRoiuwJZxfTFIzaiCCIiNqbP/uXGWDGcwEevpawNUzzszL1tT0w==}
+  /@remix-run/server-runtime/1.19.1:
+    resolution: {integrity: sha512-sRTx/Ibl8HSLGhEr73YTZz3GzO5eZRCusfSJ8MBh1Kq0Mo571W9g4AJ/qJsF3G/wKTKxU2n75MVo0nIfTh4oZQ==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@remix-run/router': 1.7.1
+      '@remix-run/router': 1.7.2
       '@types/cookie': 0.4.1
       '@web3-storage/multipart-parser': 1.0.0
       cookie: 0.4.2
