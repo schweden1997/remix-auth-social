@@ -40,7 +40,7 @@ importers:
       isbot: ^3.5.4
       react: ^18.2.0
       react-dom: ^18.2.0
-      remix-auth: ^3.3.0
+      remix-auth: ^3.5.0
       remix-auth-oauth2: ^1.3.0
       remix-auth-strava-strategy: workspace:*
       typescript: ^4.7.4
@@ -52,7 +52,7 @@ importers:
       isbot: 3.6.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      remix-auth: 3.3.0_tg66rlz5vrhc244rz7xerccsj4
+      remix-auth: 3.5.0_tg66rlz5vrhc244rz7xerccsj4
       remix-auth-oauth2: 1.3.0_tg66rlz5vrhc244rz7xerccsj4
       remix-auth-strava-strategy: link:../../packages/strava-strategy
     devDependencies:
@@ -86,14 +86,14 @@ importers:
       jest-fetch-mock: ^3.0.3
       react: ^18.2.0
       react-dom: ^18.2.0
-      remix-auth: ^3.3.0
+      remix-auth: ^3.5.0
       remix-auth-oauth2: ^1.3.0
       ts-jest: ^29.0.3
       typescript: ^4.8.4
       zod: ^3.21.4
       zod-validation-error: ^1.3.1
     dependencies:
-      remix-auth: 3.3.0_tg66rlz5vrhc244rz7xerccsj4
+      remix-auth: 3.5.0_tg66rlz5vrhc244rz7xerccsj4
       remix-auth-oauth2: 1.3.0_tg66rlz5vrhc244rz7xerccsj4
       zod: 3.21.4
       zod-validation-error: 1.3.1_zod@3.21.4
@@ -9142,15 +9142,15 @@ packages:
     dependencies:
       '@remix-run/server-runtime': 1.19.1
       debug: 4.3.4
-      remix-auth: 3.3.0_tg66rlz5vrhc244rz7xerccsj4
+      remix-auth: 3.5.0_tg66rlz5vrhc244rz7xerccsj4
       uuid: 8.3.2
     transitivePeerDependencies:
       - '@remix-run/react'
       - supports-color
     dev: false
 
-  /remix-auth/3.3.0_tg66rlz5vrhc244rz7xerccsj4:
-    resolution: {integrity: sha512-sLY5s6DQF4OJp03HM/dIEw3tLfSOIowerS2QDTuvEVXoEA3IHVmk7QkvOKosWdVPbcnlRfwF6PbeBLKgo6vqsg==}
+  /remix-auth/3.5.0_tg66rlz5vrhc244rz7xerccsj4:
+    resolution: {integrity: sha512-+0kFPhqNPQ4mjhDXViY5mG4jvWHWMsG1IXFiCj3T58BKQGynonk93vTFZ5/CCDzGFBjTsRpcA+mXCUW5LY8MdQ==}
     peerDependencies:
       '@remix-run/react': ^1.0.0
       '@remix-run/server-runtime': ^1.0.0
