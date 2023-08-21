@@ -44,7 +44,7 @@
     "@cloudflare/workers-types": "^3.16.0",
     "@jest/globals": "^29.6.2",
     "@jest/types": "^29.1.2",
-    "@remix-run/cloudflare": "^1.7.2",
+    "@remix-run/cloudflare": "^1.19.3",
     "@remix-run/node": "^1.19.1",
     "@remix-run/react": "^1.7.2",
     "@remix-run/server-runtime": "^1.19.1",
