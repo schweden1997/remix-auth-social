@@ -50,7 +50,7 @@
     "@remix-run/server-runtime": "^1.19.1",
     "@types/jest": "^29.1.2",
     "@types/node": "^18.8.4",
-    "babel-jest": "^29.1.2",
+    "babel-jest": "^29.6.3",
     "eslint-config-custom": "workspace:*",
     "jest": "^29.1.2",
     "jest-fetch-mock": "^3.0.3",
