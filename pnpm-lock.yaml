@@ -40,7 +40,7 @@ importers:
       isbot: ^3.5.4
       react: ^18.2.0
       react-dom: ^18.2.0
-      remix-auth: ^3.5.0
+      remix-auth: ^3.5.1
       remix-auth-oauth2: ^1.8.0
       remix-auth-strava-strategy: workspace:*
       typescript: ^4.7.4
@@ -52,8 +52,8 @@ importers:
       isbot: 3.6.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      remix-auth: 3.5.0_tg66rlz5vrhc244rz7xerccsj4
-      remix-auth-oauth2: 1.8.0_6isbnye4l3nghn5hhlzui3glg4
+      remix-auth: 3.5.1_tg66rlz5vrhc244rz7xerccsj4
+      remix-auth-oauth2: 1.8.0_vgkbel6iwczgknpnwklnlj2nea
       remix-auth-strava-strategy: link:../../packages/strava-strategy
     devDependencies:
       '@remix-run/dev': 1.7.2_63cxfdg5f5bb4xpkk3vcjfcl3q
@@ -86,15 +86,15 @@ importers:
       jest-fetch-mock: ^3.0.3
       react: ^18.2.0
       react-dom: ^18.2.0
-      remix-auth: ^3.5.0
+      remix-auth: ^3.5.1
       remix-auth-oauth2: ^1.8.0
       ts-jest: ^29.1.1
       typescript: ^4.8.4
       zod: ^3.21.4
       zod-validation-error: ^1.3.1
     dependencies:
-      remix-auth: 3.5.0_tg66rlz5vrhc244rz7xerccsj4
-      remix-auth-oauth2: 1.8.0_6isbnye4l3nghn5hhlzui3glg4
+      remix-auth: 3.5.1_tg66rlz5vrhc244rz7xerccsj4
+      remix-auth-oauth2: 1.8.0_vgkbel6iwczgknpnwklnlj2nea
       zod: 3.21.4
       zod-validation-error: 1.3.1_zod@3.21.4
     devDependencies:
@@ -9114,7 +9114,7 @@ packages:
       unified: 10.1.2
     dev: true
 
-  /remix-auth-oauth2/1.8.0_6isbnye4l3nghn5hhlzui3glg4:
+  /remix-auth-oauth2/1.8.0_vgkbel6iwczgknpnwklnlj2nea:
     resolution: {integrity: sha512-39C9bsc5vdHKRhlTCESzNwi5GMwd8p99ypqzZUEN/Kws/GO3o98qBhcSjPbmrZk5jlzXKx8RJU+ygS3d5Anl4A==}
     peerDependencies:
       '@remix-run/server-runtime': ^1.0.0
@@ -9122,14 +9122,14 @@ packages:
     dependencies:
       '@remix-run/server-runtime': 1.19.1
       debug: 4.3.4
-      remix-auth: 3.5.0_tg66rlz5vrhc244rz7xerccsj4
+      remix-auth: 3.5.1_tg66rlz5vrhc244rz7xerccsj4
       uuid: 8.3.2
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /remix-auth/3.5.0_tg66rlz5vrhc244rz7xerccsj4:
-    resolution: {integrity: sha512-+0kFPhqNPQ4mjhDXViY5mG4jvWHWMsG1IXFiCj3T58BKQGynonk93vTFZ5/CCDzGFBjTsRpcA+mXCUW5LY8MdQ==}
+  /remix-auth/3.5.1_tg66rlz5vrhc244rz7xerccsj4:
+    resolution: {integrity: sha512-PH8JTMd2n4OoQE7xGoCMDvrPyHfDvKMNEi8VT3Lvi/g3+HlJERHWXdYBOSl0TImEYOprs8VI/nC82y47aKJrJQ==}
     peerDependencies:
       '@remix-run/react': ^1.0.0
       '@remix-run/server-runtime': ^1.0.0
