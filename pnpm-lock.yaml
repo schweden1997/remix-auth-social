@@ -91,12 +91,12 @@ importers:
       ts-jest: ^29.1.1
       typescript: ^4.8.4
       zod: ^3.21.4
-      zod-validation-error: ^1.3.1
+      zod-validation-error: ^1.5.0
     dependencies:
       remix-auth: 3.5.1_ji4od2xrvkgm5slfxpngqzyvb4
       remix-auth-oauth2: 1.8.0_hi5hrzhn6wtcmf3kzdiruziykq
       zod: 3.21.4
-      zod-validation-error: 1.3.1_zod@3.21.4
+      zod-validation-error: 1.5.0_zod@3.21.4
     devDependencies:
       '@babel/core': 7.22.11
       '@babel/preset-env': 7.22.10_@babel+core@7.22.11
@@ -10892,8 +10892,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  /zod-validation-error/1.3.1_zod@3.21.4:
-    resolution: {integrity: sha512-cNEXpla+tREtNdAnNKY4xKY1SGOn2yzyuZMu4O0RQylX9apRpUjNcPkEc3uHIAr5Ct7LenjZt6RzjEH6+JsqVQ==}
+  /zod-validation-error/1.5.0_zod@3.21.4:
+    resolution: {integrity: sha512-/7eFkAI4qV0tcxMBB/3+d2c1P6jzzZYdYSlBuAklzMuCrJu5bzJfHS0yVAS87dRHVlhftd6RFJDIvv03JgkSbw==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       zod: ^3.18.0
