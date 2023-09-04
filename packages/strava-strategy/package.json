@@ -42,7 +42,7 @@
     "@babel/preset-react": "^7.22.15",
     "@babel/preset-typescript": "^7.22.5",
     "@cloudflare/workers-types": "^3.16.0",
-    "@jest/globals": "^29.6.3",
+    "@jest/globals": "^29.6.4",
     "@jest/types": "^29.1.2",
     "@remix-run/cloudflare": "^1.19.3",
     "@remix-run/node": "^1.19.3",
