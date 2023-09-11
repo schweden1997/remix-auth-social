@@ -29,7 +29,7 @@ importers:
       '@remix-run/dev': ^1.7.2
       '@remix-run/eslint-config': ^1.7.2
       '@remix-run/node': ^1.19.3
-      '@remix-run/react': ^1.7.2
+      '@remix-run/react': ^1.19.3
       '@remix-run/serve': ^1.7.2
       '@remix-run/server-runtime': ^1.19.3
       '@types/node': ^18.8.4
@@ -46,13 +46,13 @@ importers:
       typescript: ^4.7.4
     dependencies:
       '@remix-run/node': 1.19.3
-      '@remix-run/react': 1.7.2_biqbaboplfbrettd7655fr4n2y
+      '@remix-run/react': 1.19.3_biqbaboplfbrettd7655fr4n2y
       '@remix-run/serve': 1.7.2_biqbaboplfbrettd7655fr4n2y
       '@remix-run/server-runtime': 1.19.3
       isbot: 3.6.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      remix-auth: 3.5.1_ji4od2xrvkgm5slfxpngqzyvb4
+      remix-auth: 3.5.1_dybzsur44fk6knidl2aip4tzdq
       remix-auth-oauth2: 1.8.0_hi5hrzhn6wtcmf3kzdiruziykq
       remix-auth-strava-strategy: link:../../packages/strava-strategy
     devDependencies:
@@ -76,7 +76,7 @@ importers:
       '@jest/types': ^29.6.3
       '@remix-run/cloudflare': ^1.19.3
       '@remix-run/node': ^1.19.3
-      '@remix-run/react': ^1.7.2
+      '@remix-run/react': ^1.19.3
       '@remix-run/server-runtime': ^1.19.3
       '@types/jest': ^29.1.2
       '@types/node': ^18.8.4
@@ -93,7 +93,7 @@ importers:
       zod: ^3.21.4
       zod-validation-error: ^1.5.0
     dependencies:
-      remix-auth: 3.5.1_ji4od2xrvkgm5slfxpngqzyvb4
+      remix-auth: 3.5.1_dybzsur44fk6knidl2aip4tzdq
       remix-auth-oauth2: 1.8.0_hi5hrzhn6wtcmf3kzdiruziykq
       zod: 3.21.4
       zod-validation-error: 1.5.0_zod@3.21.4
@@ -107,7 +107,7 @@ importers:
       '@jest/types': 29.6.3
       '@remix-run/cloudflare': 1.19.3_sdsrk4k6a7nt5ux4frcoqnhnsy
       '@remix-run/node': 1.19.3
-      '@remix-run/react': 1.7.2_biqbaboplfbrettd7655fr4n2y
+      '@remix-run/react': 1.19.3_biqbaboplfbrettd7655fr4n2y
       '@remix-run/server-runtime': 1.19.3
       '@types/jest': 29.1.2
       '@types/node': 18.8.5
@@ -2580,17 +2580,17 @@ packages:
       - react
       - react-dom
 
-  /@remix-run/react/1.7.2_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-019y9WGdMA2i7/grLwpH1xqK3QxSmzNoMAwZ2ytnM/if6AHXrSz9BCn4urt6jYrDEuSOAwzOm65xd/fKNU45aQ==}
-    engines: {node: '>=14'}
+  /@remix-run/react/1.19.3_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-iP37MZ+oG1n4kv4rX77pKT/knra51lNwKo5tinPPF0SuNJhF3+XjWo5nwEjvisKTXLZ/OHeicinhgX2JHHdDvA==}
+    engines: {node: '>=14.0.0'}
     peerDependencies:
-      react: '>=16.8'
-      react-dom: '>=16.8'
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
     dependencies:
-      history: 5.3.0
+      '@remix-run/router': 1.7.2
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      react-router-dom: 6.3.0_biqbaboplfbrettd7655fr4n2y
+      react-router-dom: 6.14.2_biqbaboplfbrettd7655fr4n2y
 
   /@remix-run/router/1.7.2:
     resolution: {integrity: sha512-7Lcn7IqGMV+vizMPoEl5F0XDshcdDYtMI6uJLQdQz5CfZAwy3vvGKYSUk789qndt5dEC4HfSjviSYlSoHGL2+A==}
@@ -9017,6 +9017,18 @@ packages:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
     dev: true
 
+  /react-router-dom/6.14.2_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-5pWX0jdKR48XFZBuJqHosX3AAHjRAzygouMTyimnBPOLdY3WjzUSKhus2FVMihUFWzeLebDgr4r8UeQFAct7Bg==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      react: '>=16.8'
+      react-dom: '>=16.8'
+    dependencies:
+      '@remix-run/router': 1.7.2
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-router: 6.14.2_react@18.2.0
+
   /react-router-dom/6.3.0_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-uaJj7LKytRxZNQV8+RbzJWnJ8K2nPsOOEuX7aQstlMZKQT0164C+X2w6bnkqU3sjtLvpd5ojrezAyfZ1+0sStw==}
     peerDependencies:
@@ -9027,6 +9039,15 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-router: 6.3.0_react@18.2.0
+
+  /react-router/6.14.2_react@18.2.0:
+    resolution: {integrity: sha512-09Zss2dE2z+T1D03IheqAFtK4UzQyX8nFPWx6jkwdYzGLXd5ie06A6ezS2fO6zJfEb/SpG6UocN2O1hfD+2urQ==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      react: '>=16.8'
+    dependencies:
+      '@remix-run/router': 1.7.2
+      react: 18.2.0
 
   /react-router/6.3.0_react@18.2.0:
     resolution: {integrity: sha512-7Wh1DzVQ+tlFjkeo+ujvjSqSJmkt1+8JO+T5xklPlgrh70y7ogx75ODRW0ThWhY7S+6yEDks8TYrtQe/aoboBQ==}
@@ -9225,19 +9246,19 @@ packages:
     dependencies:
       '@remix-run/server-runtime': 1.19.3
       debug: 4.3.4
-      remix-auth: 3.5.1_ji4od2xrvkgm5slfxpngqzyvb4
+      remix-auth: 3.5.1_dybzsur44fk6knidl2aip4tzdq
       uuid: 8.3.2
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /remix-auth/3.5.1_ji4od2xrvkgm5slfxpngqzyvb4:
+  /remix-auth/3.5.1_dybzsur44fk6knidl2aip4tzdq:
     resolution: {integrity: sha512-PH8JTMd2n4OoQE7xGoCMDvrPyHfDvKMNEi8VT3Lvi/g3+HlJERHWXdYBOSl0TImEYOprs8VI/nC82y47aKJrJQ==}
     peerDependencies:
       '@remix-run/react': ^1.0.0
       '@remix-run/server-runtime': ^1.0.0
     dependencies:
-      '@remix-run/react': 1.7.2_biqbaboplfbrettd7655fr4n2y
+      '@remix-run/react': 1.19.3_biqbaboplfbrettd7655fr4n2y
       '@remix-run/server-runtime': 1.19.3
       uuid: 8.3.2
     dev: false
