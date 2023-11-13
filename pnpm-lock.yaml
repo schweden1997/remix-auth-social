@@ -11,7 +11,7 @@ importers:
       czg: ^1.7.0
       husky: ^8.0.3
       lint-staged: ^13.2.3
-      prettier: ^2.7.1
+      prettier: ^3.1.0
       turbo: ^1.5.5
     devDependencies:
       '@changesets/changelog-github': 0.4.8
@@ -21,7 +21,7 @@ importers:
       czg: 1.7.0
       husky: 8.0.3
       lint-staged: 13.2.3
-      prettier: 2.7.1
+      prettier: 3.1.0
       turbo: 1.5.6
 
   examples/node-server:
@@ -8839,6 +8839,12 @@ packages:
   /prettier/2.7.1:
     resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
     engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true
+
+  /prettier/3.1.0:
+    resolution: {integrity: sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 
